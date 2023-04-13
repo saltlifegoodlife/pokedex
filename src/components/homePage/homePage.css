@@ -1,0 +1,52 @@
+h1 {
+  margin: 0 0 20px 0;
+  font-size: 56px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+label {
+  margin: 0 5px 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding: 30px;
+}
+
+.card {
+  padding: 20px;
+  background-color: rgb(204, 44, 44);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.pokemon-div {
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(234, 173, 173);
+  border-radius: 10px;
+}
+
+.type-weak {
+  display: flex;
+  justify-content: space-around;
+}
